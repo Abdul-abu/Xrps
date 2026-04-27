@@ -1,0 +1,39 @@
+# 1. SECRETS - NEVER upload these
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# 2. OS JUNK - Mac/Windows/Linux
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 3. EDITOR JUNK - VSCode/IntelliJ/Vim
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 4. LOGS & TEMP FILES
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/tmp
+/temp
+
+# 5. DEPENDENCIES - Big folders
+/node_modules/
+/vendor/
+/venv/
+env/
+__pycache__/
+*.pyc
+
